@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "419997853512",
+    "firebase_url": "https://dwarkawala-c9c6e.firebaseio.com",
+    "project_id": "dwarkawala-c9c6e",
+    "storage_bucket": "dwarkawala-c9c6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419997853512:android:94a8135e7b25e986",
+        "android_client_info": {
+          "package_name": "com.example.dwarkawala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419997853512-k1onsl4stukh1hjb36uphc13podjkguf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dwarkawala",
+            "certificate_hash": "2bcaba6f5f90142fdc43cdb3efafc3ca37184184"
+          }
+        },
+        {
+          "client_id": "419997853512-ahrvtluujmtu1auv7l3r8atv373dse2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf_y_CCBlmIF8nKYx4di5k2eBkLPKFQmk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419997853512-ahrvtluujmtu1auv7l3r8atv373dse2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
