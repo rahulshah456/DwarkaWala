@@ -3,6 +3,9 @@ package com.example.dwarkawala;
 public class Model {
     String title, image, description;
 
+    public Model() {
+    }
+
     public Model(String title, String image, String description) {
         this.title = title;
         this.image = image;

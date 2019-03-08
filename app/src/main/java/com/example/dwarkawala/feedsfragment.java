@@ -26,6 +26,7 @@ public class feedsfragment extends Fragment {
 
     FirebaseDatabase firebaseDatabase;
     RecyclerView recyclerView;
+
     FirebaseApp firebaseApp;
     DatabaseReference databaseReference;
 
