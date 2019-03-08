@@ -1,11 +1,10 @@
-package com.example.dwarkawala;
+package Fragments;
 
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -14,8 +13,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import Models.Model;
+import com.example.dwarkawala.R;
+import Adapters.ViewHolder;
+import Adapters.ViewPagerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -27,7 +29,7 @@ public class feedsfragment extends Fragment {
     FirebaseDatabase firebaseDatabase;
     RecyclerView recyclerView;
 
-    FirebaseApp firebaseApp;
+    //FirebaseApp firebaseApp;
     DatabaseReference databaseReference;
 
 
@@ -45,7 +47,7 @@ public class feedsfragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
 
-        firebaseApp.initializeApp(getActivity());
+        //firebaseApp.initializeApp(getActivity());
         View view = inflater.inflate(R.layout.fragment_feedsfragment, container, false);
         viewPager = (ViewPager) view.findViewById(R.id.feedpager);
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getActivity());

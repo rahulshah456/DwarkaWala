@@ -1,6 +1,5 @@
 package com.example.dwarkawala;
 
-import android.content.Context;
 import android.support.design.widget.TabItem;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -9,6 +8,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.google.firebase.FirebaseApp;
+
+import Adapters.PageAdapter;
 
 
 public class MainActivity extends AppCompatActivity {

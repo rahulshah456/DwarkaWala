@@ -1,4 +1,4 @@
-package com.example.dwarkawala;
+package Models;
 
 public class Model {
     String title, image, description;

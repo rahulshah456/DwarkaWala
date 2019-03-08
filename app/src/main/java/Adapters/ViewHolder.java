@@ -1,4 +1,4 @@
-package com.example.dwarkawala;
+package Adapters;
 
 import android.content.Context;
 import android.provider.ContactsContract;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.dwarkawala.R;
 import com.squareup.picasso.Picasso;
 
 public class ViewHolder extends RecyclerView.ViewHolder {

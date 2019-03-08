@@ -1,11 +1,11 @@
-package com.example.dwarkawala;
+package Adapters;
 
-import android.content.Context;
-import android.support.design.widget.TabItem;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.view.LayoutInflater;
+
+import Fragments.dealsfragment;
+import Fragments.feedsfragment;
 
 
 public class PageAdapter extends FragmentPagerAdapter {

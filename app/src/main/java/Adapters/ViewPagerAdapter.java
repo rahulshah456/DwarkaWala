@@ -1,4 +1,4 @@
-package com.example.dwarkawala;
+package Adapters;
 
 import android.content.Context;
 import android.provider.ContactsContract;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.example.dwarkawala.R;
 
 public class ViewPagerAdapter extends PagerAdapter{
     private Context context;
